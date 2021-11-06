@@ -1,0 +1,28 @@
+body{
+    background-color: aquamarine;
+}
+
+h1{
+    color:white;
+    background-color: royalblue;
+}
+
+#showSketch{
+    float: right;
+}
+
+canvas{
+    border: 5px dashed black;
+    border-radius: 20px;
+    animation-name: animation;
+    animation-duration: 4s;
+    margin-top: 15px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation{
+    25%{box-shadow: 5px 8px 50px darkgreen;}
+    50%{box-shadow: 5px 8px 50px sandybrown;}
+    75%{box-shadow: 5px 8px 50px firebrick;}
+    100%{box-shadow: 5px 8px 50px slategrey;}
+}
